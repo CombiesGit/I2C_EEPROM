@@ -54,6 +54,7 @@ template<uint8_t I2CADDRESS=0x50> class  M24C08  : public  eephandler<I2CADDRESS
 template<uint8_t I2CADDRESS=0x50> class ST24C08  : public  eephandler<I2CADDRESS, 1024UL,1,16>{};
 template<uint8_t I2CADDRESS=0x50> class  M24C16  : public  eephandler<I2CADDRESS, 2048UL,1,16>{};
 template<uint8_t I2CADDRESS=0x50> class ST24C32  : public  eephandler<I2CADDRESS, 4096UL,2,32>{};
+template<uint8_t I2CADDRESS=0x50> class  M24C32  : public  eephandler<I2CADDRESS, 4096UL,2,32>{};
 template<uint8_t I2CADDRESS=0x50> class  M24C64  : public  eephandler<I2CADDRESS, 8192UL,2,32>{};
 template<uint8_t I2CADDRESS=0x50> class  M24128  : public  eephandler<I2CADDRESS,16384UL,2,32>{};
 template<uint8_t I2CADDRESS=0x50> class  M24256  : public  eephandler<I2CADDRESS,32768UL,2,32>{};
